@@ -28,7 +28,6 @@ const player_colour = function () {
     player1.style.backgroundColor = "rgb(205, 78, 159)";
   }
 };
-
 player_colour();
 
 roll_btn.addEventListener("click", function () {
