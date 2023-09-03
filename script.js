@@ -57,7 +57,7 @@ hold_btn.addEventListener("click", function () {
     if (curr_player === 1) {
       total_score_1 += curr_score;
       player1_score.textContent = total_score_1;
-      if (total_score_1 >= 20) {
+      if (total_score_1 >= 100) {
         game_state = 0;
         player1.style.backgroundColor = "rgb(54, 51, 51)";
         player1.style.color = "rgb(196, 30, 132)";
@@ -71,7 +71,7 @@ hold_btn.addEventListener("click", function () {
     } else {
       total_score_2 += curr_score;
       player2_score.textContent = total_score_2;
-      if (total_score_2 >= 20) {
+      if (total_score_2 >= 100) {
         game_state = 0;
         player2.style.backgroundColor = "rgb(54, 51, 51)";
         player2.style.color = "rgb(196, 30, 132)";
